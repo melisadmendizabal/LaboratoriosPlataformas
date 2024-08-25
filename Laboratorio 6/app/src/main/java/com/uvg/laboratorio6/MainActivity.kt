@@ -128,8 +128,6 @@ fun PantallaPrincipal(){
                     maximo = contador
                 }
             },
-                shape = CircleShape,
-                modifier = Modifier.size(50.dp)
             ){
                 Text(text = "+",
                     textAlign = TextAlign.Center,
