@@ -5,10 +5,11 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import kotlinx.serialization.Serializable
 import androidx.navigation.compose.composable
+import com.uvg.laboratorio8.ui.bottomNavigation.BNDestination
 
 
 @Serializable
-data object ListadoDestination
+data object ListadoDestination:BNDestination
 
 //es la que llama a la ruta
 fun NavController.navigateToListadoScreen(

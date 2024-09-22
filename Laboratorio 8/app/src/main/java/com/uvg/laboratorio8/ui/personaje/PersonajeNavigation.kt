@@ -5,6 +5,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
+import com.uvg.laboratorio8.ui.bottomNavigation.BNDestination
 import kotlinx.serialization.Serializable
 
 @Serializable

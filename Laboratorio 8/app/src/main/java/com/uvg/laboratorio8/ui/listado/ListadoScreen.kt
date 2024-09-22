@@ -62,12 +62,8 @@ private fun ListadoScreen(characterDb: CharacterDb,
                     image = character.image,
                     onCharClick = {onCharClick(character.id)})//Aaaaaaaaaaaaaaaaaaaaaa
             }
-
         }
-
-
     }
-
 }
 
 @Composable
